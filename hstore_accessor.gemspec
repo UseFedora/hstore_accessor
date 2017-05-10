@@ -4,11 +4,11 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require "hstore_accessor/version"
 
 Gem::Specification.new do |spec|
-  spec.name          = "hstore_accessor"
+  spec.name          = "hstore_accessor_rails5"
   spec.version       = HstoreAccessor::VERSION
   spec.authors       = ["Joe Hirn", "Cory Stephenson", "JC Grubbs", "Tony Coconate", "Michael Crismali"]
   spec.email         = ["joe@devmynd.com", "cory@devmynd.com", "jc@devmynd.com", "me@tonycoconate.com", "michael@devmynd.com"]
-  spec.description   = "Adds typed hstore backed fields to an ActiveRecord model."
+  spec.description   = "fork of hstore accessor that supports rails 5 ."
   spec.summary       = "Adds typed hstore backed fields to an ActiveRecord model."
   spec.homepage      = "http://github.com/devmynd/hstore_accessor"
   spec.license       = "MIT"
